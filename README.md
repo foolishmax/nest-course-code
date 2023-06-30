@@ -10,4 +10,6 @@
 
 [一网打尽Nest全部装饰器](./nest-decorators)
 
+[Nest如何自定义装饰器](./nest-custom-decorator)
+
 [Nest中如何打印日志？](./logger-test)
