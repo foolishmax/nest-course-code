@@ -1,4 +1,4 @@
-## 全局模块和生命周期
+# 全局模块和生命周期
 
 Nest启动后会递归解析Module依赖，扫描其中的provider、controller，注入依赖。
 

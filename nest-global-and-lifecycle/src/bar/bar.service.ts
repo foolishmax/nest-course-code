@@ -1,5 +1,5 @@
 import { Inject, Injectable } from '@nestjs/common';
-import { FooService } from './../foo/foo.service';
+import { FooService } from '../foo/foo.service';
 import { CreateBarDto } from './dto/create-bar.dto';
 import { UpdateBarDto } from './dto/update-bar.dto';
 
