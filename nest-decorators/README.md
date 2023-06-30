@@ -1,73 +1,73 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# 一网打尽Nest所有装饰器
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## @Module 声明模块
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## @Controller 声明controller
 
-## Description
+## @Injectable 声明provider
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+- provider可以是任何class
+- 注入的方式可以是构造器、属性（属性注入要指定token，token是class或者string）
+- 可以通过useFactory、useValue等方式声明provider
 
-## Installation
 
-```bash
-$ pnpm install
-```
+## @Optional 注入依赖可选
 
-## Running the app
+## Global() 声明全局
 
-```bash
-# development
-$ pnpm run start
+## @Catch() 指定处理的异常
 
-# watch mode
-$ pnpm run start:dev
+- @Catch(HttpException)
+- 通过@UseFilters应用到handler上
 
-# production mode
-$ pnpm run start:prod
-```
+## @UseFilters()、@UseGuards、@UseInterceptors()、@UsePipes()
 
-## Test
+## @Params()、@Query()、@Body()
 
-```bash
-# unit tests
-$ pnpm run test
+## @Post()、@Put()、@Delete()、@Patch()、@Options()、@Head()
 
-# e2e tests
-$ pnpm run test:e2e
+## @SetMetadata()
 
-# test coverage
-$ pnpm run test:cov
-```
+- 可以为handler和class设置@SetMetadata指定metadata
+- 在guard或者interceptor中取出来
 
-## Support
+## @Headers()
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+- 获取某个请求头或者全部请求头
 
-## Stay in touch
+## @Ip()
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- 拿到请求的ip
 
-## License
+## @Session()
 
-Nest is [MIT licensed](LICENSE).
+- 拿到session对象
+- 需要安装一个express中间件
+
+## @Req() 或 @Request()
+
+## @Res() 或 @Response()
+
+- 不会返回响应了，需手动返回
+
+## @Next()
+
+- 当有两个handler来处理同一个路由，可以在第一个handler中注入next，调用它将请求转发到第二个handler
+- 不会返回响应，需手动返回
+
+
+## @HttpCode(201)
+
+- 指定返回的状态码
+
+## @Header('xxx','bbb')
+
+- 修改response header
+
+## @Redirect
+
+- 指定路由重定向url
+
+## @Render()
+
+- 指定渲染用的模版引擎

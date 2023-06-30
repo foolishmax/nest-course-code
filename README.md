@@ -1,4 +1,4 @@
-## nestjs course code
+# nestjs course code
 
 [5种http数据传输方式](./nest-five-http-trans-method)
 
@@ -7,5 +7,7 @@
 [使用多种provider，灵活注入对象](./nest-provider)
 
 [全局模块和生命周期](./nest-global-and-lifecycle)
+
+[一网打尽Nest全部装饰器](./nest-decorators)
 
 [Nest中如何打印日志？](./logger-test)
