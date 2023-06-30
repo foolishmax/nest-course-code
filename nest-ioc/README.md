@@ -1,0 +1,9 @@
+## 总结
+
+IOC机制主要解决了后端系统的对象依赖关系错综复杂的痛点问题
+
+Nest提供了IOC机制在class上标识哪些可以被注入，它的依赖是什么，然后从入口开始扫描这些对象和依赖，自动创建和组装对象。
+
+Nest通过@Controller声明可以被注入的controller，通过@Injectable声明可以被注入也可以注入别的对象的provider，然后在@Module声明的模块中引入。
+
+Nest提供了Module和Module之间的import，可以引入别的模块的provider。
