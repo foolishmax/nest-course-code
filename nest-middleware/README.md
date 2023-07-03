@@ -1,0 +1,10 @@
+# Nest 的 Middleware
+
+Nest中middleware具有request、response、next参数，可以从IOC容器汇总注入依赖，指定路由等
+
+用法：
+Module中实现NestModule的configure方法，调用apply和forRoutes指定什么中间件作用于什么路由
+
+Nest有个@Next装饰器，用于调用下个handler处理，当使用这个装饰器后next就不会把handler返回值作为响应了
+
+middleware和interceptor功能类似，但interceptor可以拿到目标class、handler等，也可以调用rxjs的operator来处理响应，更适合处理具体业务逻辑，middleware更适合处理通用逻辑

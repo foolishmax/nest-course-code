@@ -16,4 +16,6 @@
 
 [Module和Provider的循环依赖如何处理](./nest-circular-dep)
 
+[Nest的Middleware](./nest-middleware)
+
 [Nest中如何打印日志？](./logger-test)
