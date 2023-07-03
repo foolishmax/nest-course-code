@@ -12,4 +12,8 @@
 
 [Nest如何自定义装饰器](./nest-custom-decorator)
 
+[Metadata和Reflector](./nest-metadata-and-reflector)
+
+[Module和Provider的循环依赖如何处理](./nest-circular-dep)
+
 [Nest中如何打印日志？](./logger-test)
