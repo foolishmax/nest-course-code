@@ -20,4 +20,6 @@
 
 [RxJS和Interceptor](./nest-interceptor)
 
+[内置Pipe和自定义Pipe](./nest-pipe)
+
 [Nest中如何打印日志？](./logger-test)
