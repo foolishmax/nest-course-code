@@ -22,4 +22,6 @@
 
 [内置Pipe和自定义Pipe](./nest-pipe)
 
+[Nest如何使用multer实现文件上传](./nest-multer-upload)
+
 [Nest中如何打印日志？](./logger-test)
