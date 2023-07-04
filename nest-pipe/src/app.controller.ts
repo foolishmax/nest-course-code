@@ -1,4 +1,5 @@
 import {
+  Body,
   Controller,
   DefaultValuePipe,
   Get,
@@ -10,8 +11,11 @@ import {
   ParseEnumPipe,
   ParseIntPipe,
   ParseUUIDPipe,
+  Post,
   Query,
+  ValidationPipe,
 } from '@nestjs/common';
+import { User } from 'dto/user.dto';
 import { AppService } from './app.service';
 import { FooPipe } from './foo.pipe';
 
@@ -24,6 +28,12 @@ enum IEnum {
 @Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}
+
+  @Post('user')
+  createUser(@Body(new ValidationPipe()) user: User) {
+    console.log(user);
+    return user;
+  }
 
   // 自定义foo
   @Get('foo/:foo')
