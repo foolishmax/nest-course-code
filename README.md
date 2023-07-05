@@ -24,4 +24,8 @@
 
 [Nest如何使用multer实现文件上传](./nest-multer-upload)
 
-[Nest中如何打印日志？](./logger-test)
+[Nest中如何打印日志？](./nest-logger)
+
+[第一个Dockerfile](./nest-docker)
+
+[Nest项目如何编写Dockerfile](./nest-dockerfile)
