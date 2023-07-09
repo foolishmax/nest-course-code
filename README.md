@@ -29,3 +29,7 @@
 [第一个Dockerfile](./nest-docker)
 
 [Nest项目如何编写Dockerfile](./nest-dockerfile)
+
+[使用node操作MYSQL](./nest-mysql2)
+
+[快速掌握TypeORM](./nest-typeorm-all-feature)
