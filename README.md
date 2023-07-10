@@ -33,3 +33,5 @@
 [使用node操作MYSQL](./nest-mysql2)
 
 [快速掌握TypeORM](./nest-typeorm-all-feature)
+
+[TypeOrm一对一的映射和关联CRUD](./nest-typeorm-relation-mapping)
