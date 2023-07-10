@@ -35,3 +35,5 @@
 [快速掌握TypeORM](./nest-typeorm-all-feature)
 
 [TypeOrm一对一的映射和关联CRUD](./nest-typeorm-relation-mapping)
+
+[TypeOrm一对多的映射和关联CRUD](./nest-typeorm-relation-mapping-multi)
