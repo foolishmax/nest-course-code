@@ -39,3 +39,5 @@
 [TypeOrm一对多的映射和关联CRUD](./nest-typeorm-relation-mapping-multi)
 
 [TypeOrm多对多的映射和关联CRUD](./nest-typeorm-relation-mapping-mtm)
+
+[在Nest里集成TypeOrm](./nest-typeorm)
