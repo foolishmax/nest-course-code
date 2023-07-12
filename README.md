@@ -47,3 +47,5 @@
 [在Nest里操作Redis](./nest-redis)
 
 [Nest里实现Session和JWT](./nest-jwt-session)
+
+[Mysql+TypeOrm+JWT实现登录注册](./nest-login)
