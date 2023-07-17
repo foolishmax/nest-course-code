@@ -51,3 +51,5 @@
 [Mysql+TypeOrm+JWT实现登录注册](./nest-login)
 
 [基于ACL实现权限控制](./nest-acl)
+
+[基于RBAC实现权限控制](./nest-rbac)
