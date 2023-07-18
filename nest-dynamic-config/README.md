@@ -1,0 +1,9 @@
+# 如何动态读取不同环境的配置？
+
+Nest提供了@nestjs/config包封装，使用ConfigModule.forRoot可以读取.env配置文件，然后注入ConfigService来读取配置
+
+也可以通过ConfigModule.forFeature来注册局部配置
+
+原理就是通过useFactory动态产生provider，然后在forRoot、forFeature里动态返回模块定义
+
+然后就可以把数据库连接信息、应用启动端口等抽离到配置文件中
