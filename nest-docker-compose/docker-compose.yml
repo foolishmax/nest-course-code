@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  nest-app:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    depends_on:
+      - mysql-container
+      - redis-container
+    ports:
+      - '3000:3000'
+  mysql-container:
+    image: mysql
+    ports:
+      - '3307:3306'
+    environment:
+      - MYSQL_ROOT_PASSWORD=lb17839238512
+    volumes:
+      - /Users/foolishmax/mysql-data:/var/lib/mysql
+  redis-container:
+    image: redis
+    ports:
+      - '6379:6379'
+    volumes:
+      - /Users/foolishmax/docker_compose:/data
