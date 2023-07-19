@@ -33,7 +33,7 @@ import { AppService } from './app.service';
         const client = createClient({
           socket: {
             host: 'localhost',
-            port: 6379,
+            port: 6380,
           },
         });
         await client.connect();

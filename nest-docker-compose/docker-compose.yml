@@ -12,7 +12,7 @@ services:
   mysql-container:
     image: mysql
     ports:
-      - '3307:3306'
+      - '3307:3307'
     environment:
       - MYSQL_ROOT_PASSWORD=lb17839238512
     volumes:
@@ -20,6 +20,6 @@ services:
   redis-container:
     image: redis
     ports:
-      - '6379:6379'
+      - '6380:6379'
     volumes:
       - /Users/foolishmax/docker_compose:/data
