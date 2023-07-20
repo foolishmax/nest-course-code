@@ -57,3 +57,5 @@
 [如何动态读取不同环境的配置](./nest-dynamic-config)
 
 [Docker Compose](./nest-docker-compose)
+
+[实现基于邮箱验证码的登录](./nest-email)
