@@ -59,3 +59,5 @@
 [Docker Compose](./nest-docker-compose)
 
 [实现基于邮箱验证码的登录](./nest-email)
+
+[使用Swagger自动生成api文档](./nest-swagger)
