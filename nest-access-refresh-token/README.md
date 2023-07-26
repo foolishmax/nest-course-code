@@ -1,0 +1,11 @@
+# 基于access_token 和 refresh_token实现无感刷新登录状态
+
+access_token用于用户认证，refresh_token用于刷新token，实现无感续签
+
+比如：access_token过期时间是30分钟，refresh_token过期时间是7天
+
+access_token失效时，用refresh_token刷新，解密后得到userId查询数据库并生成新的token返回前端
+
+前端登录后把token放在localstorage中，在axios的interceptors.request中请求时自动带上authorization的header(access_token)
+
+access_token失效，interceptpors.response在响应401时，自动访问refreshToken拿到新的token，然后再次访问失败的接口
