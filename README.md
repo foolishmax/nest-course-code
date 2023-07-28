@@ -64,6 +64,8 @@
 
 [基于access_token 和 refresh_token实现无感刷新登录状态](./nest-access-refresh-token)
 
+[基于Redis实现分布式session](./nest-redis-session)
+
 ## 项目
 
 [会议室预定系统](./nest-meeting-room)
