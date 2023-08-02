@@ -42,7 +42,7 @@ import { UserModule } from './user/user.module';
           password: configService.get('mysql_server_password'),
           database: configService.get('mysql_server_database'),
           synchronize: true,
-          logging: true,
+          logging: false,
           entities: [User, Role, Permission],
           poolSize: 10,
           connectorPackage: 'mysql2',
