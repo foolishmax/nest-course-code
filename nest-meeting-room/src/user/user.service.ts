@@ -17,6 +17,7 @@ import { Permission } from './entities/permission.entity';
 import { Role } from './entities/role.entity';
 import { User } from './entities/user.entity';
 import { LoginUserVo } from './vo/login-user.vo';
+import { UserListVo } from './vo/user-list.vo';
 
 @Injectable()
 export class UserService {
@@ -36,8 +37,6 @@ export class UserService {
 
   async register(user: RegisterUserDto) {
     const captcha = await this.redisService.get(`captcha_${user.email}`);
-
-    console.log(captcha, 111);
 
     if (!captcha) {
       throw new HttpException('验证码失效', HttpStatus.BAD_REQUEST);
@@ -311,9 +310,10 @@ export class UserService {
       where: condition,
     });
 
-    return {
-      users,
-      total,
-    };
+    const vo = new UserListVo();
+    vo.users = users;
+    vo.total = total;
+
+    return vo;
   }
 }
