@@ -1,58 +1,58 @@
 # nestjs course code
 
-[5种http数据传输方式](./nest-five-http-trans-method)
+[5 种 http 数据传输方式](./nest-five-http-trans-method)
 
-[IOC解决了什么痛点问题？](./nest-ioc)
+[IOC 解决了什么痛点问题？](./nest-ioc)
 
-[使用多种provider，灵活注入对象](./nest-provider)
+[使用多种 provider，灵活注入对象](./nest-provider)
 
 [全局模块和生命周期](./nest-global-and-lifecycle)
 
-[一网打尽Nest全部装饰器](./nest-decorators)
+[一网打尽 Nest 全部装饰器](./nest-decorators)
 
-[Nest如何自定义装饰器](./nest-custom-decorator)
+[Nest 如何自定义装饰器](./nest-custom-decorator)
 
-[Metadata和Reflector](./nest-metadata-and-reflector)
+[Metadata 和 Reflector](./nest-metadata-and-reflector)
 
-[Module和Provider的循环依赖如何处理](./nest-circular-dep)
+[Module 和 Provider 的循环依赖如何处理](./nest-circular-dep)
 
-[Nest的Middleware](./nest-middleware)
+[Nest 的 Middleware](./nest-middleware)
 
-[RxJS和Interceptor](./nest-interceptor)
+[RxJS 和 Interceptor](./nest-interceptor)
 
-[内置Pipe和自定义Pipe](./nest-pipe)
+[内置 Pipe 和自定义 Pipe](./nest-pipe)
 
-[Nest如何使用multer实现文件上传](./nest-multer-upload)
+[Nest 如何使用 multer 实现文件上传](./nest-multer-upload)
 
-[Nest中如何打印日志？](./nest-logger)
+[Nest 中如何打印日志？](./nest-logger)
 
-[第一个Dockerfile](./nest-docker)
+[第一个 Dockerfile](./nest-docker)
 
-[Nest项目如何编写Dockerfile](./nest-dockerfile)
+[Nest 项目如何编写 Dockerfile](./nest-dockerfile)
 
-[使用node操作MYSQL](./nest-mysql2)
+[使用 node 操作 MYSQL](./nest-mysql2)
 
-[快速掌握TypeORM](./nest-typeorm-all-feature)
+[快速掌握 TypeORM](./nest-typeorm-all-feature)
 
-[TypeOrm一对一的映射和关联CRUD](./nest-typeorm-relation-mapping)
+[TypeOrm 一对一的映射和关联 CRUD](./nest-typeorm-relation-mapping)
 
-[TypeOrm一对多的映射和关联CRUD](./nest-typeorm-relation-mapping-multi)
+[TypeOrm 一对多的映射和关联 CRUD](./nest-typeorm-relation-mapping-multi)
 
-[TypeOrm多对多的映射和关联CRUD](./nest-typeorm-relation-mapping-mtm)
+[TypeOrm 多对多的映射和关联 CRUD](./nest-typeorm-relation-mapping-mtm)
 
-[在Nest里集成TypeOrm](./nest-typeorm)
+[在 Nest 里集成 TypeOrm](./nest-typeorm)
 
-[node操作redis](./nest-redis-node)
+[node 操作 redis](./nest-redis-node)
 
-[在Nest里操作Redis](./nest-redis)
+[在 Nest 里操作 Redis](./nest-redis)
 
-[Nest里实现Session和JWT](./nest-jwt-session)
+[Nest 里实现 Session 和 JWT](./nest-jwt-session)
 
-[Mysql+TypeOrm+JWT实现登录注册](./nest-login)
+[Mysql+TypeOrm+JWT 实现登录注册](./nest-login)
 
-[基于ACL实现权限控制](./nest-acl)
+[基于 ACL 实现权限控制](./nest-acl)
 
-[基于RBAC实现权限控制](./nest-rbac)
+[基于 RBAC 实现权限控制](./nest-rbac)
 
 [如何动态读取不同环境的配置](./nest-dynamic-config)
 
@@ -60,11 +60,13 @@
 
 [实现基于邮箱验证码的登录](./nest-email)
 
-[使用Swagger自动生成api文档](./nest-swagger)
+[使用 Swagger 自动生成 api 文档](./nest-swagger)
 
-[基于access_token 和 refresh_token实现无感刷新登录状态](./nest-access-refresh-token)
+[基于 access_token 和 refresh_token 实现无感刷新登录状态](./nest-access-refresh-token)
 
-[基于Redis实现分布式session](./nest-redis-session)
+[基于 Redis 实现分布式 session](./nest-redis-session)
+
+[定时任务+Redis 实现阅读量计数](./nest-article-views)
 
 ## 项目
 
