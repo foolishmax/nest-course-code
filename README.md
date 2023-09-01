@@ -68,6 +68,8 @@
 
 [定时任务+Redis 实现阅读量计数](./nest-article-views)
 
+[Nest 实现 Server Send Event 数据推送](./nest-sse)
+
 ## 项目
 
 [会议室预定系统](./nest-meeting-room)
