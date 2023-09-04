@@ -70,6 +70,10 @@
 
 [Nest 实现 Server Send Event 数据推送](./nest-sse)
 
+[Nest 如何创建微服务？](./nest-micro-service)
+
+[Nest 的 Monorepo 项目和 Library 库](./nest-micro-monorepo)
+
 ## 项目
 
 [会议室预定系统](./nest-meeting-room)
