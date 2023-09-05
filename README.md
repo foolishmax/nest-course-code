@@ -74,6 +74,8 @@
 
 [Nest 的 Monorepo 项目和 Library 库](./nest-micro-monorepo)
 
+[Etcd 实现微服务配置中心和注册中心](./nest-etcd-test)
+
 ## 项目
 
 [会议室预定系统](./nest-meeting-room)
