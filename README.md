@@ -76,6 +76,8 @@
 
 [Etcd 实现微服务配置中心和注册中心](./nest-etcd-test)
 
+[实现二维码扫码登录](./nest-qrcode-login)
+
 ## 项目
 
 [会议室预定系统](./nest-meeting-room)
