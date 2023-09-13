@@ -78,6 +78,8 @@
 
 [实现二维码扫码登录](./nest-qrcode-login)
 
+[Nest 的 repl 模式](./nest-repl-test)
+
 ## 项目
 
 [会议室预定系统](./nest-meeting-room)
