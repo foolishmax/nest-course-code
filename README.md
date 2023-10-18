@@ -22,6 +22,8 @@
 
 [内置 Pipe 和自定义 Pipe](./nest-pipe)
 
+[如何自定义 Exception Filter](./nest-exception-filter)
+
 [Nest 如何使用 multer 实现文件上传](./nest-multer-upload)
 
 [Nest 中如何打印日志？](./nest-logger)
