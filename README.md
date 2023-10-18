@@ -82,6 +82,8 @@
 
 [Nest 的 repl 模式](./nest-repl-test)
 
+[Redis+高德地图实现附近充电宝](./nest-nearby-search)
+
 ## 项目
 
 [会议室预定系统](./nest-meeting-room)
